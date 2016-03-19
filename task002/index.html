@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>task002</title>
+		<style type="text/css">
+			body{margin:0;font-family: "微软雅黑"; background-color: #ddd; }
+			/*导航菜单*/
+			header{height: 60px; background-color: #323232;}	
+			header ul{float: right;}
+	        header li{float: left;width: 100px;}
+			header a{color: #fff; text-decoration: none;font-size: 14px;letter-spacing: 0.1em;}
+			header a:hover{color:#999;}
+			/*文章*/
+			article{width: 90%; padding: 20px;margin:20px auto ;background-color: #fff; box-shadow: 3px 3px 3px #777 ;}
+			article h3{font-size: 20px ;color: #999;}
+			article span,time{color: #999;font-size: 14px;}
+			article ul li{list-style: none;}
+			/*图片*/
+			figure{border: 1px #aaa solid ;width: 200px; padding-top: 10px; text-align: center; margin: 20px 40px;}
+			figure img{width:170px; height: 75px; margin: 10px;}
+			/*图表*/
+			table{width: 100%;border-collapse:collapse;}
+			th{color: #fff; background-color: #333;text-align: left;border: 1px #fff solid}
+			tr,td{border: 1px #ccc solid}
+			.last,.last td{background-color: #aaa; border: 0;}
+			/*侧栏*/
+			form {width: 90%;padding: 20px; margin: 40px auto;background-color: #fff ;box-shadow: 3px 3px 3px #777}
+			form h3{border-left: 3px #ccc solid; line-height: 24px;font-size: 16px; margin: 0;padding: 10px;}
+			form input,form select{margin-bottom: 10px;}
+			form textarea{height: 50px;width: 400px;vertical-align: top;}
+			form p {margin:0 0 10px 32%; padding-left: 15px;font-size: 14px;color: #aaa;}
+			.inpt{width:32% ;display: inline-block; text-align: right;margin-right: 10px} 
+			.button{width: 100%; line-height:40px; background-color: #00f; border: 0; border-radius: 7px; color: #fff; margin-top: 10px;font-size: 20px;}
+			/*低栏*/
+			footer{height: 70px;background-color: black;}
+			footer p{ width: 80px; margin:0 auto;padding-top: 20px; color: #fff;}
+		</style>
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<img src="C:\Users\idea\Desktop\html\logo.png">
+				<ul>
+					<li><a href="#">导航链接一</a></li>
+					<li><a href="#">导航链接二</a></li>
+					<li><a href="#">导航链接三</a></li>
+					<li><a href="#">导航链接四</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<h2>文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span>文章作者</span> 
+			<time>文章发表时间</time>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的额段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这是一个链接到https://ife.baidu.com/</a> 这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="C:\Users\idea\Desktop\html\task001.jpg" >
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的额段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这是一个链接到https://ife.baidu.com/</a>这是一个很长很长的段落，这是一个很长很长的段落， 这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+		</article>
+		<article>
+			<h2>另一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span>文章作者</span> 
+			<time>文章发表时间</time>
+			<p>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的额段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br/>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这是一个链接到https://ife.baidu.com/</a> 这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。</p>
+			<img src="C:\Users\idea\Desktop\html\task001.jpg">
+			<ul>
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+			</ul>
+		</article>
+		<article>
+			<h2>图片</h2>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+			<figure>
+			  <figcaption>好看的图片</figcaption>
+			  <img src="C:\Users\idea\Desktop\html\task001.jpg">
+			</figure>
+		</article>
+		<article>
+			<h2>最后一篇文章一级标题</h2>
+			<h3>文章二级标题</h3>
+			<span>文章作者</span>
+			<time>文章发表时间</time>
+			<ol>
+				<li>排名1</li>
+				<li>排名2</li>
+				<li>排名3</li>
+			</ol>
+			<p>下面是一个表格，给表格加一个border="1"好让你看出来是一个表格</p>
+			<table>
+			<thead>
+			    <tr>
+				  <th>表头</th>
+				  <th>表头</th>
+				  <th>表头</th>
+			    </tr>
+			</thead>
+			<tbody>
+				<tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+			      <td>表内容单元格</td>
+			      <td>表内容单元格</td>
+			      <td><a href="#">操作</a></td>
+			    </tr>
+				<tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td><a href="#">操作</a></td>
+				</tr>
+				<tr>
+				  <td>表内容单元格</td>
+				  <td>表内容单元格</td>
+				  <td><a href="#">操作</a></td>
+				</tr>
+				<tr class="last">
+				  <td>总计</td>
+				  <td colspan = 2 >1000</td>
+				</tr>
+			</tbody>   	
+			</table>
+		</article>
+
+		<aside>
+		<form>
+			<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+			<label class="inpt"> 请输入邮箱地址</label>
+			<input type="text" placeholder="这是一个文本输入框"></input><br/>
+			<p>邮箱地址请按要求格式输入</p>
+			<label class="inpt">请输入密码</label>
+			<input type="password" placeholder="这是一个文本输入框"></input><br/>
+			<label class="inpt"> 请重复输入密码</label>
+			<input type="passeord" placeholder="这是一个文本输入框"></input><br/>
+			<p>密码请为6-16位英文数字</p>
+			<laber class="inpt">性别</laber>
+			<input type="radio" checked="checked" name="Sex" value="male" />
+			<label > 男</label> 
+			<input type="radio" name="Sex" value="female" /> 
+			<label >女</label>
+			<br/> 
+			<label class="inpt"> 城市</label>
+			<select >
+				<option value="sr">上饶</option>
+				<option value="xy">新余</option>
+				<option value="bj" selected="selected">北京</option>
+				<option value="nc">南昌</option>
+			</select>
+			<br/>
+			<label class="inpt"> 爱好</label>
+			<input type="checkbox" >
+			<label >运动</label>
+			<input type="checkbox" >
+			<label > 艺术</label>
+			<input type="checkbox" >
+			<label > 科学</label>
+			<br/>
+			<label class="inpt" >个人描述</label>
+			<textarea rows="2" cols="30" >这是一个多行输入框，输入你的名字</textarea>
+			<br/>
+			<input class="button" type="button" value="确认提交"></input>
+		</form>
+		</aside>
+
+		<footer>
+			<p>版权所有&copy; </p>
+		</footer>
+
+	</body>
+</html>
