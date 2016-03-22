@@ -1,0 +1,371 @@
+		    .page{background-color: #666;width: 100%;height: 1500px;}
+		    .pages{width: 980px;height: 1386px;background-color: #fff;position: absolute;top:0;left: 0;right: 0;bottom: 0;margin: 50px auto;}
+			.THE_TECHNOLOGE_OF_FRONT {
+			  font-size: 72px;
+			  font-family: "SimHei";
+			  color: rgb( 245, 227, 39 );
+			  line-height: 0.547;
+			  position: absolute;
+			  left: 42.844px;
+			  top: 708.011px;
+			}
+			.redblock {
+			  background-color: rgb( 212, 93, 92 );
+			  position: absolute;
+			  left: 44px;
+			  top: 0px;
+			  width: 111px;
+			  height: 61px;
+			}
+			.topline1 {
+			  background-color: #938e8c;
+			  position: absolute;
+			  left: 44px;
+			  top: 61px;
+			  width: 894px;
+			  height: 2px;
+			}
+			.About_Technologe {
+			  font-size: 24px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 4, 0, 0 );
+			  text-decoration: underline;
+			  font-variant: small-caps;
+			  line-height: 1.25;
+			  position: absolute;
+			  left: 733px;
+			  top: 113px;
+			}
+			.about_technologe {
+			  font-size: 12px;
+			  font-family: "KaiTi";
+			  font-style: oblique;
+			  color: rgb( 103, 103, 103 );
+			  line-height: 0.833;
+			  position: absolute;
+			  left: 732.937px;
+			  top: 179.377px;
+			}
+			.picture1 {
+			  background-image: url("img/picture1.png");
+			  position: absolute;
+			  left: 44px;
+			  top: 97px;
+			  width: 641px;
+			  height: 301px;
+			}
+			._700 {
+			  font-size: 117.076px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 117, 184, 107 );
+			  line-height: 1;
+			  font-style:oblique;
+			  position: absolute;
+			  left: 717.152px;
+			  top: 238.2px;
+			}
+
+			._3_2 {
+			  font-size: 55px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 204, 128, 145 );
+			  line-height: 1;
+			  position: absolute;
+			  left: 738px;
+			  top:354.5px;
+			}
+			.css {
+			  font-size: 21px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 204, 128, 145 );
+			  line-height: 1;
+			  position: absolute;
+			  left: 822px;
+			  top: 374.5px;
+			}
+
+			.csss {
+			  font-size: 12px;
+			  font-family: "Microsoft YaHei";
+			  color: rgba( 35, 24, 21, 0.4 );
+			  line-height: 1.167;
+			  position: absolute;
+			  left: 822px;
+			  top: 391.5px;
+			 : 67;
+			}
+			.what {
+			  font-size: 16px;
+			  font-family: "Microsoft YaHei";
+			  font-weight: bold;
+			  color: rgb( 65, 140, 89 );
+			  text-decoration: underline;
+			  line-height: 0.524;
+			  position: absolute;
+			  left: 43.995px;
+			  top: 439.4px;
+			}
+
+			.qianduan {
+			  font-size: 12px;
+			  font-family: "SimSun";
+			  color: rgb( 118, 119, 119 );
+			  line-height: 16px;
+			  position: absolute;
+			  left: 44.484px;
+			  top: 466.7px;
+			}
+			.When {
+			  font-size: 16px;
+			  font-family: "Microsoft YaHei";
+			  font-weight: bold;
+			  color: rgb( 210, 153, 79 );
+			  text-decoration: underline;
+			  line-height: 0.524;
+			  position: absolute;
+			  left: 298.995px;
+			  top: 439.4px;
+			}
+
+			.qianduan2{
+			  font-size: 12px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 118, 119, 119 );
+			  line-height: 16px;
+			  position: absolute;
+			  left: 300.485px;
+			  top: 466.7px;
+			}
+			.How {
+			  font-size: 16px;
+			  font-family: "Microsoft YaHei";
+			  font-weight: bold;
+			  color: rgb( 204, 118, 128 );
+			  text-decoration: underline;
+			  line-height: 0.524;
+			  position: absolute;
+			  left: 532px;
+			  top: 439.4px;
+			}
+			.qianduan3 {
+			  font-size: 12px;
+			  font-family: "SimSun";
+			  color: rgb( 118, 119, 119 );
+			  line-height: 21px;
+			  position: absolute;
+			  left: 533.484px;
+			  top: 466.7px;
+			}
+
+			.What2 {
+			  font-size: 12px;
+			  font-family: "Microsoft YaHei";
+			  
+			  line-height: 1.75;
+			  text-align: left;
+			  position: absolute;
+			  left: 536px;
+			  top: 549.2px;
+			}
+            .What2 span{color: #cd4a48;
+            	font-style: oblique;
+            } 
+			.THE{
+			  font-size: 72px;
+			  font-family: "SimHei";
+			  font-style: oblique;
+			  font-weight: bold;
+			  color: rgb( 245, 227, 39 );
+			  line-height: 36px;
+			  position: absolute;
+			  left: 44.2px;
+			  top: 679.4px;
+			}
+			.tec{
+				font-size: 42px;
+				font-family: "黑体";
+				font-weight: bold;
+				color: #11456b;
+				line-height: 16px;
+				position: absolute;
+				top: 700.1px;
+				left: 179px;
+			}
+			.of{
+				font-weight: bold;
+				color: #11456b;
+				font-size: 42px;
+				font-family: "黑体";
+				line-height: 16px;
+				position: absolute;
+				top: 741.4px;
+				left:44.2px;
+			}
+            .qianduan4 {
+			  font-size: 33px;
+			  font-family: "SimHei";
+			  color: #11456b;
+			  line-height: 1;
+			  font-weight: bold;
+			  position: absolute;
+			  left: 44.2px;
+			  top: 784.3px;
+			}
+			.line2 {
+			  background-color: rgb( 16, 69, 107 );
+			  position: absolute;
+			  left: 44px;
+			  top: 833px;
+			  width: 415px;
+			  height: 2px;
+			}
+			.picture2 {
+			  background-image: url("img/picture2.png");
+			  opacity: 0.702;
+			  position: absolute;
+			  left: 478px;
+			  top: 681px;
+			  width: 458px;
+			  height: 257px;
+			}
+			.qian {
+			  font-size: 70px;
+			  font-family: "Microsoft YaHei";
+			  color: #f5e327;
+			  line-height: 0.571;
+			  position: absolute;
+			  left: 44px;
+			  top: 869px;
+			}
+			.qiand {
+			  font-size: 12px;
+			  font-family: "SimSun";
+			  line-height: 16px;
+			  color: #767777;
+			  position: absolute;
+			  left:120px;
+			  top: 856px;
+			}
+			.qiandu {
+			  font-size: 12px;
+			  font-family: "SimSun";
+			  color: #767777;
+			  line-height: 16px;
+			  position: absolute;
+			  left: 48.484px;
+			  top: 935px;
+			}
+			.picture3 {
+			  background-image: url("img/picture3.png");
+			  position: absolute;
+			  left: 287px;
+			  top: 960px;
+			  width: 167px;
+			  height: 288px;
+			}
+			.greenblock {
+			  background-color: rgb( 238, 237, 214 );
+			  position: absolute;
+			  left: 478px;
+			  top: 970px;
+			  width: 458px;
+			  height: 319px;			}
+
+			.qiandua {
+			  font-size: 16px;
+			  font-family: "SimSun";
+			  color: #5a5b5b;
+			  line-height: 20px;
+			  position: absolute;
+			  left: 48px;
+			  top: 20px;			}
+			.qiandua span{
+				font-size: 12px;
+				font-style: oblique;
+			}
+			
+			.rredblock {
+			  background-color: rgb( 212, 93, 92 );
+			  position: absolute;
+			  left: 0;
+			  bottom: 0;
+			  width: 261px;
+			  height: 162px;			}
+			.picture4 {
+			  background-image: url("img/picture4.png");
+			  position: absolute;
+			  left: 31px;
+			  top: 42px;
+			  width: 10px;
+			  height: 89px;
+			}
+			.hello{
+			  font-size: 14px;
+			  font-family: "SimHei";
+			  color: #5a5b5b;
+			  line-height: 16px;
+			  position: absolute;
+			  left: 276px;
+			 top: 174px;
+			}
+			.yihao1{
+				line-height: 0.083;
+				font-family: "SimHei";
+				font-size: 72px;
+				color: rgb( 212, 93, 92 );
+				position: absolute;
+				left: 235px;
+			    top: 200px;
+				}
+			.yinhao2{
+				line-height: 0.083;
+				font-family: "SimHei";
+				font-size: 72px;
+				color: rgb( 212, 93, 92 );
+				position: absolute;
+				left: 405px;
+			    top: 287px;
+			}	
+			.wline {
+			  background-color: rgb( 255, 255, 255 );
+			  position: absolute;
+			  left: 78px;
+			  top: 40px;
+			  width: 3px;
+			  height: 88px;
+			}
+			._0 {
+			  font-size: 110px;
+			  font-family: "Microsoft YaHei";
+			  color: rgb( 255, 255, 255 );
+			  position: absolute;
+			  left:9px;
+			  top: 9px;
+			}
+			.onetwo{
+			  font-size: 21px;
+			  font-family: "SimHei";
+			  font-style: oblique;
+			  color: rgb( 255, 255, 255 );
+			  line-height: 24px;
+			  position: absolute;
+			  left: 88px;
+			  top: 45px;
+			}
+			.hellow{
+				font-size: 12px;
+				font-family: "黑体";
+				line-height: 10px;
+				color: #fff;
+				position: absolute;
+				top: 96px;
+				left: 90px;
+			}
+			.linee {
+			  background-color: rgb( 147, 142, 140 );
+			  position: absolute;
+			  left: 44px;
+			  top: 1326px;
+			  width: 892px;
+			  height: 1px;
+			}
