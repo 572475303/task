@@ -1,5 +1,15 @@
-		    .page{background-color: #666;width: 100%;height: 1500px;}
-		    .pages{width: 980px;height: 1386px;background-color: #fff;position: absolute;top:0;left: 0;right: 0;bottom: 0;margin: 50px auto;}
+		   /* .page{background-color: #666;width: 100%;height: 1500px;}*/
+		    .pages{width: 980px;
+		    	height: 1386px;
+		    	background-color: #fff;
+		    	position: absolute;
+		    	top:0;
+		    	left: 0;
+		    	right: 0;
+		    	bottom: 0;
+		    	margin: 50px auto;
+		    	box-shadow: 0 0 10px #000 ;
+		    }
 			.THE_TECHNOLOGE_OF_FRONT {
 			  font-size: 72px;
 			  font-family: "SimHei";
