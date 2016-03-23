@@ -1,48 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>任务列表</title>
-    <style type="text/css">
-    .image{width: 220px;
-	    height: 400px;
-	    background-color: #f1f1f1;
-	    box-shadow: 0 0 5px #000;
-	    padding: 10px;
-
-
-   }
-   .image img{width: 80px;
-    	height: 80px;
-    	border-radius: 50%;
-    	transition: all ease 0.2s;
-		-moz-transition-duration: all ease 0.2s;
-		-webkit-transition-duration: all ease 0.2s;
-		-o-transition-duration: all ease 0.2s;
-		box-shadow: 0 0 5px #000;
-		margin: 20px;
-    }
-    .image img:hover{
-    	width: 100px;
-    	height: 100px;
-        box-shadow: 0 0 100px #055666;	
-    }
-    .image span{font-size: 16px;
-    	font-weight: bold;
-    	color: #056556;
-    	position: relative;
-    	top: -50px;
-    }
-    </style>
-</head>
-<body>
-
-		<div class="image">
-		<a href="http://ife.baidu.com/user/profile?userId=9175"><img src="img/num1.jpg"></a><span> 个人资料</span>
-		<a href="https://github.com/572475303"><img src="img/num2.png"></a><span>My Profil</span>
-		<a href="http://ife.baidu.com/group/profile?groupId=3463"><img src="img/num3.png"></a><span> 团队信息</span>
-		</div>
-
-
-</body>
+    <head>
+    	<meta charset="UTF-8">
+    	<title>任务列表</title>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript">      
+            window.onload = function () 
+            {
+                var oUl1 = document.getElementById("ul1");
+                var aLi = oUl1.getElementsByTagName("li");
+                var oDiv = document.getElementById("tab-list");
+                var aDiv = oDiv.getElementsByTagName("div");
+                for(var i = 0; i < aLi.length; i++) 
+                {
+                    aLi[i].index = i;
+                    aLi[i].onmouseover = function() 
+                    {
+                        for(var i = 0; i < aLi.length; i++) 
+                        {
+                            aLi[i].className = "";
+                        }
+                        this.className = "active";
+                        for(var j = 0; j < aDiv.length; j++) 
+                        {
+                            aDiv[j].className = "hide";
+                        }
+                        aDiv[this.index].className = "show";
+                    }        
+                }
+            }   
+        </script>
+    </head>
+    <body>
+        <div class="top"><img src="img/num5.png"></div>
+    	<div class="image">
+    	<a href="http://ife.baidu.com/user/profile?userId=9175"><img src="img/num1.jpg"></a><span> 个人资料</span>
+    	<a href="https://github.com/572475303"><img src="img/num2.png"></a><span>My Profil</span>
+    	<a href="http://ife.baidu.com/group/profile?groupId=3463"><img src="img/num3.png"></a><span> 团队信息</span>
+    	</div>
+        <div id="tab-list">
+            <ul id="ul1">
+                <li class="active">Part 1</li>
+                <li>Part 2</li>
+                <li>Part 3</li>
+            </ul>
+            <div>
+                
+                <a href="http://ife.baidu.com/review/detail?workId=1212">任务一：零基础HTML编码</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1499">任务二：零基础HTML及CSS编码（一）</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1732">任务三：三栏式布局</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1803">任务四：定位和居中问题</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1874">任务五：零基础HTML及CSS编码（二）</a>
+                <a href="http://ife.baidu.com/review/detail?workId=2924">任务六：通过HTML及CSS模拟报纸排版</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1207">任务七：实现常见的技术产品官网的页面架构及样式布局</a>
+                <a href="http://ife.baidu.com/review/detail?workId=1403">任务八：响应式网格（栅格化）布局</a>
+                <a href="http://ife.baidu.com/review/detail?workId=2656">任务九：使用HTML/CSS实现一个复杂页面</a>
+                <a href="#">任务十：Flexbox 布局练习</a>
+                <a href="#">任务十一：移动Web页面布局实践</a>
+                <a href="#">任务十二：学习CSS 3的新特性</a>     
+            </div>  
+            <div class="hide">
+                <a href="http://ife.baidu.com/review/detail?workId=2386">任务十三：零基础JavaScript编码（一）</a>
+                <a href="http://ife.baidu.com/review/detail?workId=2882">任务十四：零基础JavaScript编码（二）</a>
+                <a href="#">任务十五：零基础JavaScript编码（三）</a>
+                <a href="#">任务十六：零基础JavaScript编码（四）</a>
+                <a href="#">任务十七：零基础JavaScript编码（五）</a>
+                <a href="#">任务十八：基础JavaScript练习（一）</a>
+                <a href="#">任务十九：基础JavaScript练习（二）</a> 
+                <a href="#">任务二十：基础JavaScript练习（三）</a> 
+                <a href="#">任务二十一：</a> 
+                <a href="#">任务二十二：</a> 
+                <a href="#">任务二十三：</a>
+                <a href="#">任务二十四：</a> 
+                <a href="#">任务二十五：</a> 
+                <a href="#">任务二十六：</a> 
+                <a href="#">任务二十七：</a> 
+                <a href="#">任务二十八：</a> 
+                <a href="#">任务二十九：</a> 
+                <a href="#">任务三十：</a> 
+                <a href="#">任务三十一：</a>
+                <a href="#">任务三十二：</a>
+                <a href="#">任务三十二：</a> 
+                <a href="#">任务三十三：</a> 
+                <a href="#">任务三十四：</a> 
+                <a href="#">任务三十五：</a> 
+                <a href="#">任务三十六：</a>      
+            </div>
+            <div class="hide">   
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+                <a href="#"></a>
+            </div>
+        </div>
+    </body>
 </html>
