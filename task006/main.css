@@ -17,6 +17,14 @@
 			  width: 111px;
 			  height: 61px;
 			}
+			.ife{
+				font-family: "黑体";
+				font-size: 12px;
+				color: #fff;
+				position: absolute;
+				bottom: 3px;
+				left: 5px;
+			}
 			.topline1 {
 			  background-color: #938e8c;
 			  position: absolute;
@@ -24,6 +32,22 @@
 			  top: 61px;
 			  width: 894px;
 			  height: 2px;
+			}
+			.time{
+				font-family: "黑体";
+				font-size: 12px;
+				color: #d45d5c;
+				position: absolute;
+				top: 43px;
+				right: 41px;
+			}
+			.topline2{
+				background-color: #cc8091;
+				position: absolute;
+				left: 733px;
+				top: 97px;
+				width: 203px;
+				height: 2px;
 			}
 			.About_Technologe {
 			  font-size: 24px;
@@ -34,7 +58,7 @@
 			  line-height: 1.25;
 			  position: absolute;
 			  left: 733px;
-			  top: 113px;
+			  top: 108px;
 			}
 			.about_technologe {
 			  font-size: 12px;
@@ -44,7 +68,7 @@
 			  line-height: 0.833;
 			  position: absolute;
 			  left: 732.937px;
-			  top: 179.377px;
+			  top: 174.377px;
 			}
 			.picture1 {
 			  background-image: url("img/picture1.png");
@@ -62,7 +86,7 @@
 			  font-style:oblique;
 			  position: absolute;
 			  left: 717.152px;
-			  top: 238.2px;
+			  top: 233.2px;
 			}
 
 			._3_2 {
@@ -72,7 +96,7 @@
 			  line-height: 1;
 			  position: absolute;
 			  left: 738px;
-			  top:354.5px;
+			  top:350.5px;
 			}
 			.css {
 			  font-size: 21px;
@@ -81,7 +105,7 @@
 			  line-height: 1;
 			  position: absolute;
 			  left: 822px;
-			  top: 374.5px;
+			  top: 370.5px;
 			}
 
 			.csss {
@@ -91,8 +115,8 @@
 			  line-height: 1.167;
 			  position: absolute;
 			  left: 822px;
-			  top: 391.5px;
-			 : 67;
+			  top: 386.5px;
+			 
 			}
 			.what {
 			  font-size: 16px;
@@ -366,6 +390,14 @@
 			  position: absolute;
 			  left: 44px;
 			  top: 1326px;
-			  width: 892px;
+			  width: 894px;
 			  height: 1px;
+			}
+			.ife2{
+				font-size: 12px;
+				font-family: "黑体";
+				color: #d45d5c;
+				position: absolute;
+				bottom: 40px;
+				right: 41px;
 			}
