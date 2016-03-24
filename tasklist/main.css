@@ -3,102 +3,121 @@
 padding:0;
 font:normal 16px "微软雅黑";
 }
-a{text-decoration: none;
+a
+{text-decoration: none;
 color: #333;
 font-weight: bold;
 }
 ul{list-style-type: none;}
 body{background-image: url(img/num4.jpg);}
-.top{width: 100%;
-    height: 50px;
-    background-color: #232222;
-    opacity: 0.7;
+.top
+{width: 100%;
+height: 50px;
+background-color: #232222;
+opacity: 0.7;
 }
 .top img{
-    width: 169px;
-    height: 38px;
-    position: absolute;
-    top: 7px;
-    left: 14px;
+width: 169px;
+height: 38px;
+position: absolute;
+top: 7px;
+left: 14px;
 }
 .image{
-    width: 250px;
-    box-shadow: 0 0 5px #000;
-    padding: 10px;
-    position: absolute;
-    top: 120px;
-    left: 40px;
+width: 250px;
+box-shadow: 0 0 5px #0c6b5a;
+padding: 10px;
+position: absolute;
+top: 120px;
+left: 40px;
+transition: all ease 0.5s;
+-moz-transition-duration: all ease 0.5s;
+-webkit-transition-duration: all ease 0.5s;
+-o-transition-duration: all ease 0.5s;
 }
-.image img{width: 80px;
-    height: 80px;
-    
-    transition: all ease 1s;
-    -moz-transition-duration: all ease 1s;
-    -webkit-transition-duration: all ease 1s;
-    -o-transition-duration: all ease 1s;
-  
-    margin: 20px;
+.image:hover{box-shadow: 0 0 8px #19ffd5;
+    padding: 13px;
 }
-.image img:hover{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    box-shadow: 0 0 100px #19ffd5;  
-    transform:rotate(360deg);
-    -ms-transform:rotate(360deg);   
-    -moz-transform:rotate(360deg);  
-    -webkit-transform:rotate(360deg); 
-    -o-transform:rotate(360deg); 
-    cursor: pointer;
+.image img
+{width: 80px;
+height: 80px;
+transition: all ease 0.8s;
+-moz-transition-duration: all ease 0.8s;
+-webkit-transition-duration: all ease 0.8s;
+-o-transition-duration: all ease 0.8s;
+margin: 20px;
 }
-.image span{font-size: 17px;
-    font-style: oblique;
-    font-weight: bold;
-    color: #19ffd5;
-    position: relative;
-    top: -50px;
-    display: inline-block;
+.image img:hover
+{
+border-radius: 50%;
+width: 100px;
+height: 100px;
+box-shadow: 0 0 100px #19ffd5;  
+transform:rotate(360deg);
+-ms-transform:rotate(360deg);   
+-moz-transform:rotate(360deg);  
+-webkit-transform:rotate(360deg); 
+-o-transform:rotate(360deg); 
+cursor: pointer;
+}
+.image span
+{font-size: 17px;
+font-style: oblique;
+font-weight: bold;
+color: #19ffd5;
+position: relative;
+top: -50px;
+display: inline-block;
 } 
-
-#tab-list{width: 65%;
+#tab-list
+{width: 65%;
 position: absolute;
 top: 110px;
 right: 40px;
+opacity: 0.6;
+transition: all ease 1s;
+-moz-transition-duration: all ease 1s;
+-webkit-transition-duration: all ease 1s;
+-o-transition-duration: all ease 1s;
 }
-
+#tab-list:hover
+{
+opacity: 0.8;
+}
 #ul1 li
-{   display: inline-block;
+{display: inline-block;
 width: 20%;
 line-height: 40px;
 text-align: center;
 border: 1px solid #666;
 border-bottom: none;
 background-color: #666;
-opacity: 0.5;
-transition: all ease 0.2s;
--moz-transition-duration: all ease 0.2s;
--webkit-transition-duration: all ease 0.2s;
--o-transition-duration: all ease 0.2s;
+
+transition: all ease 0.3s;
+-moz-transition-duration: all ease 0.3s;
+-webkit-transition-duration: all ease 0.3s;
+-o-transition-duration: all ease 0.3s;
 }
-#ul1 li:hover{
+#ul1 li:hover
+{
 cursor: pointer;
 width: 40%;
 background-color: #fff;
-opacity: 0.7;
+
 }
 #ul1 li.active
 {
 border-bottom:none;
-width: 40%;
+width: 30%;
 background-color: #fff;
-opacity: 0.8;
+
 box-shadow: 0 0 10px #000;
 }
 #tab-list div
 { padding: 20px 0;
 border-top: none;
 background-color: #fff;
-opacity: 0.5;
+
 box-shadow: 0 0 5px #000;
 transition: all ease 1s;
 -moz-transition-duration: all ease 1s;
@@ -106,15 +125,15 @@ transition: all ease 1s;
 -o-transition-duration: all ease 1s;
 }
 #tab-list div:hover{
-opacity: 0.8;
+
 }
 #tab-list div a
-{   background-color: #fff;    
+{background-color: #fff;    
 width: 40%;
 display: inline-block;
+vertical-align: top;
 margin:10px;
 line-height: 30px;
-
 box-shadow: 0 0 5px #000;
 padding: 2px 5px;
 transition: all ease 0.3s;
@@ -122,9 +141,9 @@ transition: all ease 0.3s;
 -webkit-transition-duration: all ease 0.3s;
 -o-transition-duration: all ease 0.3s;
 }
-#tab-list div a:hover{
+#tab-list div a:hover
+{
 width: 40.5%;
 box-shadow: 0 0 10px #19ffd5;
 }  
-
 .hide{display: none;}
