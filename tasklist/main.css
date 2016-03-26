@@ -140,7 +140,7 @@ transition: all ease 0.3s;
 }
 #tab-list div a:hover
 {
-width: 40.5%;
+padding-right : 10px;
 box-shadow: 0 0 10px #19ffd5;
 }  
 .hide{display: none;}
