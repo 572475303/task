@@ -30,10 +30,10 @@ padding: 10px;
 position: absolute;
 top: 120px;
 left: 40px;
-transition: all ease 0.5s;
--moz-transition-duration: all ease 0.5s;
--webkit-transition-duration: all ease 0.5s;
--o-transition-duration: all ease 0.5s;
+transition: all ease 0.4s;
+-moz-transition-duration: all ease 0.4s;
+-webkit-transition-duration: all ease 0.4s;
+-o-transition-duration: all ease 0.4s;
 }
 .image:hover{box-shadow: 0 0 8px #19ffd5;
     padding: 13px;
@@ -41,10 +41,10 @@ transition: all ease 0.5s;
 .image img
 {width: 80px;
 height: 80px;
-transition: all ease 0.8s;
--moz-transition-duration: all ease 0.8s;
--webkit-transition-duration: all ease 0.8s;
--o-transition-duration: all ease 0.8s;
+transition: all ease 0.4s;
+-moz-transition-duration: all ease 0.5s;
+-webkit-transition-duration: all ease 0.4s;
+-o-transition-duration: all ease 0.5s;
 margin: 20px;
 }
 .image img:hover
@@ -52,12 +52,7 @@ margin: 20px;
 border-radius: 50%;
 width: 100px;
 height: 100px;
-box-shadow: 0 0 100px #19ffd5;  
-transform:rotate(360deg);
--ms-transform:rotate(360deg);   
--moz-transform:rotate(360deg);  
--webkit-transform:rotate(360deg); 
--o-transform:rotate(360deg); 
+box-shadow: 0 0 100px #19ffd5;
 cursor: pointer;
 }
 .image span
