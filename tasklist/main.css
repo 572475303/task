@@ -41,15 +41,12 @@ transition: all ease 0.4s;
 .image img
 {width: 80px;
 height: 80px;
-<<<<<<< HEAD
 transition: all ease 0.5s;
 -moz-transition-duration: all ease 0.5s;
 -webkit-transition-duration: all ease 0.5s;
-=======
-transition: all ease 0.4s;
+transition: all ease 0.5s;
 -moz-transition-duration: all ease 0.5s;
--webkit-transition-duration: all ease 0.4s;
->>>>>>> refs/remotes/origin/master
+-webkit-transition-duration: all ease 0.5s;
 -o-transition-duration: all ease 0.5s;
 margin: 20px;
 }
@@ -58,11 +55,7 @@ margin: 20px;
 border-radius: 50%;
 width: 100px;
 height: 100px;
-<<<<<<< HEAD
 box-shadow: 0 0 100px #19ffd5;  
-=======
-box-shadow: 0 0 100px #19ffd5;
->>>>>>> refs/remotes/origin/master
 cursor: pointer;
 }
 .image span
