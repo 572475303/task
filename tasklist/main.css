@@ -25,25 +25,26 @@ left: 14px;
 }
 .image{
 width: 250px;
-box-shadow: 0 0 5px #0c6b5a;
-padding: 10px;
 position: absolute;
 top: 120px;
-left: 40px;
+left: 2%;
 transition: all ease 0.4s;
 -moz-transition-duration: all ease 0.4s;
 -webkit-transition-duration: all ease 0.4s;
 -o-transition-duration: all ease 0.4s;
 }
 .image:hover{box-shadow: 0 0 8px #19ffd5;
-    padding: 13px;
+    padding: 0.5%;
 }
 .image img
 {width: 80px;
 height: 80px;
-transition: all ease 0.4s;
+transition: all ease 0.5s;
 -moz-transition-duration: all ease 0.5s;
--webkit-transition-duration: all ease 0.4s;
+-webkit-transition-duration: all ease 0.5s;
+transition: all ease 0.5s;
+-moz-transition-duration: all ease 0.5s;
+-webkit-transition-duration: all ease 0.5s;
 -o-transition-duration: all ease 0.5s;
 margin: 20px;
 }
@@ -52,7 +53,7 @@ margin: 20px;
 border-radius: 50%;
 width: 100px;
 height: 100px;
-box-shadow: 0 0 100px #19ffd5;
+box-shadow: 0 0 100px #19ffd5;  
 cursor: pointer;
 }
 .image span
@@ -65,10 +66,10 @@ top: -50px;
 display: inline-block;
 } 
 #tab-list
-{width: 65%;
+{width: 68%;
 position: absolute;
 top: 110px;
-right: 40px;
+right: 3%;
 opacity: 0.6;
 transition: all ease 1s;
 -moz-transition-duration: all ease 1s;
