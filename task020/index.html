@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>循环无缝滚动列表</title>
+	<style type="text/css">
+	*{margin: 0;
+	padding: 0;
+	}
+	body{font-style: "微软雅黑";line-height: 24px;}
+	h3{background-color:#ec1f43;padding: 10px;color:#ddd;color:#fff; font-size: 22px;}
+    a{text-decoration: none;}
+	ul{list-style: none;}
+	#mooc{width: 300px;height: 300px;overflow: hidden; border: 5px #999 solid;border-radius: 5px; box-shadow: 0 0 10px #999 ;margin: 30px auto;}
+	#moocTitle{position: relative;}
+	#moocTitle a{color: #fff;position: absolute;right: 10px;bottom: 10px; font-size: 18px;}
+	#moocBox{width: 200px;height: 300px; margin: 5px auto;overflow: hidden;}
+	#moocBox li{text-align: center;}
+	#moocBox li a{font-size: 14px;color: #222;height: 24px;overflow: hidden;}
+	#moocBox li a:hover{color:#ec1f99;}
+
+	</style>
+</head>
+<body>
+	<div  id="mooc"> 
+<!--  头部 -->
+<h3 id="moocTitle">离开的时候</a><a href="#" target="_self">A-lin</a> </h3>
+<!--  头部结束 --> 
+<!--  中间 -->
+<div  id="moocBox">
+    <ul id="con1">
+        <li><a href="#">彩虹褪了颜色</a></li>
+        <li><a href="#">我的窗前缠绕着寂寞</a></li>
+        <li><a href="#">哀愁一地洒落</a></li>
+        <li><a href="#">这一季的烟火</a></li>
+        <li><a href="#">没有照亮我</a></li>
+        <li><a href="#">只为别人闪烁</a></li>
+        <li><a href="#">离开的时候</a></li>
+        <li><a href="#">有些话没亲口说</a></li>
+        <li><a href="#">再多的承诺</a></li>
+        <li><a href="#">未来也难预测</a></li>
+        <li><a href="#">孤单的理由</a></li>
+        <li><a href="#">没想象中快乐</a></li>
+        <li><a href="#">我已不知所措</a></li>
+        <li><a href="#">连回忆都心痛</a></li>
+        <li><a href="#">你说耐心等候</a></li>
+        <li><a href="#">就算心里百般舍不得</a></li>
+        <li><a href="#">还是要放手</a></li>
+    </ul>
+</div>
+<!--  中间结束 --> 
+<div id="moocBot"></div>
+</div>
+<script type="text/javascript">
+ var area = document.getElementById('moocBox');
+area.innerHTML+=area.innerHTML;
+ var speed = 50;
+ function scrollUp(){
+	 if(area.scrollTop >= area.scrollHeight/2) {
+		 area.scrollTop = 0;
+		 }else{
+		   area.scrollTop ++; 
+		 } 
+}
+var myScroll = setInterval("scrollUp()",speed);
+area.onmouseover = function(){
+	 clearInterval(myScroll);
+	}
+area.onmouseout = function(){
+	 myScroll = setInterval("scrollUp()",speed);
+	}
+ </script>
+</body>
+</html>
